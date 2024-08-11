@@ -5,20 +5,20 @@ Welcome to the GitHub repository for our paper titled "Nanopore sequencing from 
 
 In this study, we focused on sequencing blood and fecal samples from mice infected with Trypanosoma brucei, a unicellular protozoan known for its hypervariable regions, which contribute to its ability to evade host immunity. We demonstrated that nanopore sequencing, with its long-read capabilities, is particularly effective in capturing and assembling these dynamic genomic regions. The results highlight the potential of nanopore sequencing in the taxonomic classification and de novo assembly of complex genomes in metagenomic contexts.
 
-Preprint link:
+### Preprint link:
 https://www.biorxiv.org/content/10.1101/2024.08.04.606558v1.full
 
-Repository Contents
+## Repository Contents
 This repository is structured to provide all the necessary resources for replicating the analyses presented in our paper. Below is an overview of the contents:
 
-1. Code
+### 1. Code
 Graph_Codes/: This directory contains all the scripts used for visualizing the raw nanopore data, taxonomic classification, and de novo assembly of the reads. 
 
-2. Results
+### 2. Results
 Graph_Codes/: Contains the graphical results, including the proportion of reads identified as Trypanosoma brucei and other organisms.
 
-Getting Started
-Prerequisites
+## Getting Started
+### Prerequisites
 To run the analyses, you will need the following software installed on your system:
 
 R v.3.6.0
@@ -32,13 +32,17 @@ Assemblytics
 MinKNOW v.22.05.5
 EPI2ME-labs v2.9.2
 
-Contributing
+### Contributors
+ - [Branden Hunter](https://github.com/Brandensean67)
+ - [Hyunjin Shim](https://github.com/hjshim)
+
+### Contributing
 We welcome contributions from the community! Please feel free to open an issue or submit a pull request if you have any suggestions or improvements.
 
-License
+### License
 This repository is licensed under the GNU GPL License. See the LICENSE file for details.
 
-Contact
+### Contact
 For questions or inquiries about the study, please contact [jinenstar@gmail.com].
 
 We hope this repository serves as a valuable resource for researchers interested in nanopore sequencing and metagenomic analysis. Thank you for your interest in our work!
