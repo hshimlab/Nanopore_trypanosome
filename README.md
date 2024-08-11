@@ -5,6 +5,9 @@ Welcome to the GitHub repository for our paper titled "Nanopore sequencing from 
 
 In this study, we focused on sequencing blood and fecal samples from mice infected with Trypanosoma brucei, a unicellular protozoan known for its hypervariable regions, which contribute to its ability to evade host immunity. We demonstrated that nanopore sequencing, with its long-read capabilities, is particularly effective in capturing and assembling these dynamic genomic regions. The results highlight the potential of nanopore sequencing in the taxonomic classification and de novo assembly of complex genomes in metagenomic contexts.
 
+Preprint link:
+https://www.biorxiv.org/content/10.1101/2024.08.04.606558v1.full
+
 Repository Contents
 This repository is structured to provide all the necessary resources for replicating the analyses presented in our paper. Below is an overview of the contents:
 
