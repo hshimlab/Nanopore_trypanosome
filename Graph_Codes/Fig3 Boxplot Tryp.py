@@ -13,10 +13,10 @@ df_feces_infected = read_data('Feces_Infected-counts-species.csv')
 
 # Group data by sample type
 data = {
-    'Blood Control': df_blood_control['fastq'],
-    'Blood Infected': df_blood_infected['fastq'],
-    'Feces Control': df_feces_control['fastq'],
-    'Feces Infected': df_feces_infected['fastq']
+    'TrypBlood_Control': df_blood_control['fastq'],
+    'TrypBlood_2': df_blood_infected['fastq'],
+    'Feces_Control': df_feces_control['fastq'],
+    'Feces_Infected': df_feces_infected['fastq']
 }
 
 # Create the figure and axis objects
@@ -32,8 +32,8 @@ ax.boxplot(data.values(), patch_artist=True,
 
 # Adding labels, title, and legend
 #ax.set_xlabel('Sample Type')
-plt.ylim(top=100)
-ax.set_ylabel('Fastq Values')
+#plt.ylim()
+ax.set_ylabel('Read Count')
 ax.set_xticklabels(data.keys())
 
 # Display the plot
