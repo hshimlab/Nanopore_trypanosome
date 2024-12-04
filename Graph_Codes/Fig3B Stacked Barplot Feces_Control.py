@@ -28,7 +28,7 @@ plt.figure(figsize=(8, 10))
 # Add stacked segments for each species
 bottom = 0
 for idx, row in df_sorted.iloc[::-1].iterrows():  # Reverse the order of rows while plotting
-    plt.bar('Feces_Infected', row['Count'], bottom=bottom, color=row['Color'], edgecolor='black')
+    plt.bar('Feces_Control', row['Count'], bottom=bottom, color=row['Color'], edgecolor='black')
     bottom += row['Count']
 
 
